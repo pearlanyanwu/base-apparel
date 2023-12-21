@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  margin-left: 15em;
+  width: fit-content;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+* {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.info {
+  background-image: url("images/bg-pattern-desktop.svg");
+  width: 800px;
+}
+
+#logo,
+p,
+form {
+  margin-left: 20%;
+}
+
+#logo,
+.container {
+  margin-top: 5em;
+}
+
+.info > p:nth-child(2) {
+  margin-top: 1.5em;
+  font-size: 70px;
+  width: 10%;
+  letter-spacing: 10px;
+  font-weight: 100;
+  margin-bottom: 0.125em;
+  text-transform: uppercase;
+}
+
+.info > p:nth-child(2) span {
+  color: hsl(0, 0%, 0%);
+}
+
+.info > p:nth-child(3) {
+  width: 55%;
+  line-height: 2em;
+}
+
+p {
+  color: hsl(0, 93%, 68%);
+}
+
+span {
+  font-weight: 600;
+}
+
+input {
+  padding: 15px 35px;
+  width: 56%;
+  vertical-align: middle;
+  position: relative;
+  border: 1px solid lightgray;
+}
+
+input,
+button {
+  margin-top: 2em;
+  border-radius: 50px;
+}
+
+button {
+  padding: 11.5px 35px;
+  border-style: none;
+  background-image: linear-gradient(to right, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  position: absolute;
+  margin-left: -6em;
+}
+
+button:hover {
+  cursor: pointer;
+  background-image: linear-gradient(to right, hsl(0, 48%, 77%), hsl(0, 42%, 62%));
+}
