@@ -38,28 +38,7 @@ Users should be able to:
 
 ### What I learned
 
-In this project, I learned how to validate email input using regex and if-else conditionals.
-
-```js
-let submitButton = document.getElementById("submit-button");
-let email = document.getElementById("email");
-const regex = /^([a-zA-Z0-9_]+@[a-zA-Z0-9]+\.[a-z]{2,3})$/;
-
-submitButton.addEventListener("click", () => {
-  if (email.value === null) {
-    alert("Input field cannot be empty if you would like to subscribe.");
-    return false;
-  } else {
-    if (regex.test(email.value)) {
-      alert("Subscribed!");
-      return true;
-    } else {
-      alert("Oops! Please ensure this email address contains a '@', a '.', and the domain name is 2-3 characters in length.");
-      return false;
-    }
-  }
-})
-```
+In this project, I learned how to validate email input using regex and if-else conditionals. Refer to the 'script.js' file.
 
 ### Useful resources
 
