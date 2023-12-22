@@ -8,7 +8,7 @@ submitButton.addEventListener("click", () => {
     return false;
   } else {
     if (regex.test(email.value)) {
-      alert("You're subscribed!");
+      alert("Subscribed!");
       return true;
     } else {
       alert("Error: Email address must contain '@', '.', and the domain name must be 3 characters in length.");
