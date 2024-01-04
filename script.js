@@ -1,6 +1,6 @@
 let submitButton = document.getElementById("submit-button");
 let email = document.getElementById("email");
-const regex = /^[a-zA-Z0-9_]+@[a-zA-Z]+\.[a-zA-Z]{3}$/;
+const regex = /^[a-zA-Z0-9_]+@[a-zA-Z0-9]+\.[a-zA-Z]{3}$/;
 
 submitButton.addEventListener("click", () => {
   if (email.value === "") {
@@ -11,7 +11,7 @@ submitButton.addEventListener("click", () => {
       alert("Subscribed!");
       return true;
     } else {
-      alert("Error: Email address must contain '@', '.', and the domain name must be 3 characters in length.");
+      alert("Email address must contain '@', '.', and the domain name must be 3 characters in length.");
       return false;
     }
   }

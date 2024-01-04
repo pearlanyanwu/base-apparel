@@ -38,8 +38,8 @@ Users should be able to:
 
 ### What I learned
 
-In this project, I learned how to validate email input using regex and if-else conditionals. Refer to the 'script.js' file.
+In this project, I learned how to validate email input using a regex pattern and if-else statements.
 
 ### Useful resources
 
-- [https://emaillistvalidation.com/blog/email-validation-in-javascript-using-regular-expressions-the-ultimate-guide/#:~:text=A%20common%20and%20widely%20accepted,Z%5D%7B2%2C4%7D%24%2F%20.](https://www.example.com) - This provided me with one of the most common regex patterns for email validation.
+- [emaillistvalidation.com](https://emaillistvalidation.com/blog/email-validation-in-javascript-using-regular-expressions-the-ultimate-guide/#:~:text=A%20common%20and%20widely%20accepted,%2DzA%2DZ0%2D9.) - This provided me with one of the most common regex patterns for email validation.
